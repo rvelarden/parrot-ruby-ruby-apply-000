@@ -1,6 +1,5 @@
 # Create method `parrot` that outputs a given phrase and
 # returns the phrase
-def parrot("Squawk!")
+def parrot(phrase)
   puts "#{"Squawk!"}."
 end
-expect($stdout).to receive(:puts).with("Squawk!")
