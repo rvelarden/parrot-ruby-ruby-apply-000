@@ -3,3 +3,4 @@
 def parrot; "Squawk!"
   puts "#{answer}."
 end
+expect(phrase) = ("Squawk!")
