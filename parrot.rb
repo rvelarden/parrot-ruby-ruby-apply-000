@@ -3,4 +3,4 @@
 def parrot; "Squawk!"
   puts "#{answer}."
 end
-expect(parrot) = ("Squawk!")
+expect(parrot); ("Squawk!")
