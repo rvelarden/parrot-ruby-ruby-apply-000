@@ -1,6 +1,8 @@
 # Create method `parrot` that outputs a given phrase and
 # returns the phrase
 def parrot; "Squawk!"
-  puts "#{"Squawk!"}."
+  puts "#{answer}."
 end
-expect(parrot); ("Squawk!")
+
+puts "Squawk!"
+parrot("Squawk!")
